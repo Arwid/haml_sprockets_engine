@@ -7,11 +7,11 @@ require "haml_sprockets_engine/version"
 Gem::Specification.new do |s|
   s.name        = "haml_sprockets_engine"
   s.version     = HamlSprocketsEngine::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of HamlSprocketsEngine."
-  s.description = "TODO: Description of HamlSprocketsEngine."
+  s.authors     = ["Arwid Bancewicz"]
+  s.email       = ["arwid@arwid.ca"]
+  s.homepage    = "http://arwid.ca"
+  s.summary     = "Haml Sprockets engine"
+  s.description = "Haml Sprockets engine"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
